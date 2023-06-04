@@ -4,6 +4,7 @@ import "./DynamicForm.css";
 import FirstStep from "./FirstStep/FirstStep";
 import SecondStep from "./SecondStep/SecondStep";
 import ThirdStep from "./ThirdStep/ThirdStep";
+
 export default function DynamicForm() {
     const [step, setStep] = useState (1);
     const showNextStep = () =>{

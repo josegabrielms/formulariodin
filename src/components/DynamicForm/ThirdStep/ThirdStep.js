@@ -19,7 +19,7 @@ export default function ThirdStep({setStep}) {
     return(
         <div>
             <h2>Third Step</h2>
-            <h4>Do you want to add any comment</h4>
+            <h4>Do you want to add any comments?</h4>
             <Container className="p-5 text-center">
                 <Row className="justify-content-md-center">
                     <Col lg="10">

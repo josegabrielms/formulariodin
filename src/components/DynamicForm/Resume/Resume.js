@@ -6,7 +6,7 @@ export default function Resume({showModal, setModal, setStep}) {
     const favouriteFruit=localStorage.getItem("fruitName");
     const fruitIcon= localStorage.getItem("iconFruit");
     const hobbiesStorage=JSON.parse(localStorage.getItem("hobbies"));
-    const addiotionalHobbie = localStorage.getItem("additionalHobbie");
+    const additionalHobbie = localStorage.getItem("additionalHobbie");
     const comment = localStorage.getItem("comment");
 
     const clearForm = () =>{
@@ -24,10 +24,10 @@ export default function Resume({showModal, setModal, setStep}) {
             onHide={clearForm}
         >
             <Modal.Header closeButton>
-                <Modal.Title>Congratulations !🥳 🎉</Modal.Title>
+                <Modal.Title>Congratulations!🥳 🎉</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <h4>Here you are your resume</h4>
+                <h4>Here you is your resume</h4>
                 <CardGroup className="mt-4">
                     {favouriteFruit && fruitIcon &&(
                         <CardResume 
@@ -39,14 +39,14 @@ export default function Resume({showModal, setModal, setStep}) {
                     {hobbiesStorage &&(
                         <CardResumeHobbies 
                             subtitle="Your hobbies"
-                            text={addiotionalHobbie}
+                            text={additionalHobbie}
                             hobbiesStorage={hobbiesStorage}
-                            addiotionalHobbie={addiotionalHobbie}
+                            additionalHobbie={additionalHobbie}
                         />
                     )}
                     {comment && (
                         <CardResume
-                            subtitle="And for the last this is the comment"
+                            subtitle="And lastly this is the comment"
                             text={comment}
                         />
                     )}

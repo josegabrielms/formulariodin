@@ -18,7 +18,7 @@ export default function SecondStep() {
     localStorage.setItem("hobbies", hobbiesSer);
     const onChangeAdditionalHobbie = (e) =>{
         const sport = e.target.value;
-        localStorage.setItem("addiotionalHobbie", sport);
+        localStorage.setItem("additionalHobbie", sport);
     };
     return (
         <div>
@@ -37,7 +37,7 @@ export default function SecondStep() {
                         />
                     </Col>
                     <Col lg="7" className="mt-4">
-                        <h5>Do you want to add more</h5>
+                        <h5>Do you want to add more?</h5>
                         <Form.Control
                             type="text"
                             placeholder="Baseball"
