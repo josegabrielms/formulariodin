@@ -19,7 +19,7 @@ export default function CardResumeHobbies(props) {
                         <Card.Subtitle>
                             <b>Your Additional Hobbie is: </b>
                         </Card.Subtitle>
-                        <Card.Text>{additionalHobbie}</Card.Text>
+                        <Card.Text><li>{additionalHobbie}</li></Card.Text>
                     </Card.Body>
                 </Card.Body>
             </Card>

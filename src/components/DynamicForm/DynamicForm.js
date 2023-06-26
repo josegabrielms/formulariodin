@@ -27,7 +27,7 @@ export default function DynamicForm() {
                         <div className="container-text">
                             {step > 1 && step < 4 && (
                                 <p className="before" onClick={showPreviewStep}>
-                                    ⬅️ Before Step
+                                    ⬅️ Previous Step
                                 </p>
                             )}
                         </div>

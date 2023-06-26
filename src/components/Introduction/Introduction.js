@@ -8,10 +8,10 @@ export default function Introduction() {
                     <Col xs={12} md={8}>
                         <h1 className="pl-2 text-center">
                             Welcome to my Dynamic Form {" "}
-                            <span className="pt-2 pb-4">where you will do everything you want</span>
+                            <span className="pt-2 pb-4">where you can do everything you want</span>
                         </h1>
                         <h4 className="d-flex container-actions mt-5 text-center">
-                            Hi, I'm Iván Devia, I'm 38 years old and I like to make programs, develop with JS and JAVA. I like to play BaseBall and play drums.
+                            Hi, I'm Sandra Ospina, I'm 37 years old and I like to make programs, and develop with JS. I like traveling and dancing.
                         </h4>
                         <div className="d-flex container-actions mt-5">
                             <div className="container-buttons">
